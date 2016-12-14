@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="smartisanos" coreApp="true" android:sharedUserId="android.uid.system"
+    android:sharedUserLabel="@null">
+
+
+    <application
+            android:process="system"
+            android:persistent="true"
+            android:hasCode="false"
+            android:label="@null"
+            android:allowClearUserData="false"
+            android:killAfterRestore="false"
+            android:icon="@null">
+
+    </application>
+</manifest>

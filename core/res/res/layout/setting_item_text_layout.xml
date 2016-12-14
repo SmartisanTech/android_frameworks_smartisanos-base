@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/secondary_layout"
+                android:duplicateParentState="true"
+                android:paddingLeft="@dimen/settings_item_title_left_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/settings_list_item_icon_margin_right"
+        android:duplicateParentState="true"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/title_summary_layout"
+        android:layout_toRightOf="@id/item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/settings_item_title_right_margin"
+        android:duplicateParentState="true"
+        android:layout_centerVertical="true">
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/settings_item_title_size"
+            android:textColor="@color/setting_item_text_colorlist"
+            android:duplicateParentState="true"
+            android:layout_gravity="center_vertical"
+            android:singleLine="true"
+            />
+        <TextView
+            android:id="@+id/item_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_title"
+            android:textSize="@dimen/settings_item_sub_title_size"
+            android:textColor="@color/setting_item_summary_text_colorlist"
+            android:singleLine="true"
+            android:duplicateParentState="true"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/item_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/secletor_setting_item_arrow"
+        android:layout_marginRight="@dimen/settings_item_right_arrow_margin" />
+
+    <TextView
+        android:id="@+id/item_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/item_arrow"
+        android:layout_toRightOf="@id/title_summary_layout"
+        android:layout_marginLeft="@dimen/setting_item_text_subtitle_margin_left"
+        android:textSize="@dimen/settings_item_sub_title_size"
+        android:textColor="@color/setting_item_summary_text_colorlist"
+        android:duplicateParentState="true"
+        android:shadowRadius="0"
+        android:shadowDy="-1"
+        android:shadowColor="#33000000"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:gravity="right"
+        />
+</RelativeLayout>

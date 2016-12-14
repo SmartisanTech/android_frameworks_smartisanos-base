@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <declare-styleable name="ItemSwitch">
+        <attr name="itemSwitchIcon" format="reference|color" />
+        <attr name="itemSwitchTitle" format="string" />
+        <attr name="itemSwitchSummary" format="string" />
+        <attr name="itemSwitchIsEnable" format="boolean" />
+        <attr name="itemSwitchTitleSize" format="dimension" />
+        <attr name="itemSwitchSummarySize" format="dimension" />
+        <attr name="itemSwitchTitleColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="Title">
+        <attr name="title" format="string"/>
+        <attr name="titleColor" format="color"/>
+        <attr name="titleSize" format="dimension"/>
+        <attr name="backText" format="string"/>
+        <attr name="backTextColor" format="color"/>
+        <attr name="backTextSize" format="dimension"/>
+        <attr name="okText" format="string"/>
+        <attr name="okTextColor" format="color"/>
+        <attr name="okTextSize" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="ItemCheck">
+        <attr name="itemCheckGravity">
+            <enum name="top" value="0" />
+            <enum name="middle" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="single" value="3" />
+        </attr>
+        <attr name="itemCheckIcon" format="reference|color" />
+        <attr name="itemCheckTitle" format="string" />
+        <attr name="itemCheckSummary" format="string" />
+        <attr name="itemCheckTitleSize" format="dimension" />
+        <attr name="itemCheckSummarySize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ItemText">
+        <attr name="itemTextGravity">
+            <enum name="top" value="0" />
+            <enum name="middle" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="single" value="3" />
+        </attr>
+        <attr name="itemTextIcon" format="reference|color" />
+        <attr name="itemTextTitle" format="string" />
+        <attr name="itemTextSummary" format="string" />
+        <attr name="itemTextShowArrow" format="boolean" />
+        <attr name="itemTextSubTitle" format="string" />
+        <attr name="itemTextSubTitleFontSize" format="dimension" />
+        <attr name="itemTextArrow" format="reference" />
+        <attr name="itemTextTitleMaxWidth" format="dimension" />
+        <attr name="itemTextClickable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="IconPreferenceScreen">
+        <attr name="icon" format="reference"/>
+
+    </declare-styleable>
+    <declare-styleable name="SettingItemSwitch">
+        <attr name="icon"/>
+        <attr name="title"/>
+        <attr name="summary" format="string"/>
+        <attr name="subTitle"/>
+        <attr name="isChecked" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="SettingItemText">
+        <attr name="icon"/>
+        <attr name="title"/>
+        <attr name="summary"/>
+        <attr name="show_arrow" format="boolean"/>
+        <attr name="subTitle" format="string"/>
+        <attr name="subTitleFontSize" format="dimension"/>
+        <attr name="arrow" format="reference"/>
+        <attr name="titleMaxWidth" format="dimension"/>
+        <attr name="clickable" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="SettingItemCheck">
+        <attr name="itemIcon" format="reference|color"/>
+        <attr name="itemTitle" format="string"/>
+        <attr name="itemSummary" format="string"/>
+        <attr name="itemTitleSize" format="dimension"/>
+        <attr name="itemSummarySize" format="dimension"/>
+    </declare-styleable>
+
+</resources>

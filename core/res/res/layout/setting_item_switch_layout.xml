@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/secondary_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <smartisanos.widget.SwitchEx
+        android:id="@+id/item_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/settings_item_right_widget_margin" />
+
+    <LinearLayout
+        android:layout_alignParentLeft="true"
+        android:id="@+id/title_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/settings_item_title_left_margin"
+        android:layout_toLeftOf="@id/item_switch"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/setting_item_text_color"
+                android:textSize="@dimen/settings_item_title_size" />
+
+            <TextView
+                android:id="@+id/item_summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/setting_item_summary_text_color"
+                android:textSize="@dimen/settings_item_sub_title_size"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/item_info_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/popup_info_btn"
+            android:layout_marginTop="1px"
+            android:layout_marginLeft="3dip"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_subtitle_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/settings_item_title_right_margin"
+        android:textColor="@color/setting_item_summary_text_colorlist"
+        android:textSize="@dimen/settings_item_sub_title_size"
+        android:visibility="gone" />
+
+</RelativeLayout>

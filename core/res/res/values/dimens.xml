@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="switch_title_size">18sp</dimen>
+    <dimen name="item_sub_title_size">10sp</dimen>
+    <dimen name="item_icon_right_margin">20dp</dimen>
+    <dimen name="switch_margin_top">20dp</dimen>
+    <dimen name="switch_padding_left">15dp</dimen>
+    <dimen name="switch_padding_right">10dp</dimen>
+    <dimen name="switch_margin_bottom">15dp</dimen>
+    <dimen name="switch_title_max_width">222dp</dimen>
+
+    <dimen name="tips_max_width">300dp</dimen>
+
+    <dimen name="title_back_btn_max_width">101.7dp</dimen>
+    <dimen name="title_place_holder_min_width">6dip</dimen>
+    <dimen name="title_bar_btn_text_size">13.5sp</dimen>
+    <dimen name="title_bar_title_text_size">20sp</dimen>
+
+    <dimen name="menu_dialog_multi_list_height">237dp</dimen>
+
+    <dimen name="item_check_icon_left_margin">30.5dip</dimen>
+    <dimen name="item_text_right_arrow_margin">12dip</dimen>
+
+    <dimen name="settings_item_title_left_margin">30dip</dimen>
+    <dimen name="settings_item_title_left_margin_with_grid">84dip</dimen>
+    <dimen name="settings_item_grid_left_margin">12dip</dimen>
+    <dimen name="settings_item_grid_scale">60dip</dimen>
+    <dimen name="settings_item_title_right_margin">15dip</dimen>
+    <dimen name="settings_item_title_size">18sp</dimen>
+    <dimen name="settings_item_sub_title_size">13.5sp</dimen>
+    <dimen name="settings_item_right_arrow_margin">11.6dp</dimen>
+    <dimen name="setting_item_text_subtitle_margin_left">3dip</dimen>
+    <dimen name="sensor_settings_item_sub_title_size">8sp</dimen>
+    <dimen name="settings_item_icon_left_margin">30.5dip</dimen>
+    <dimen name="setting_item_title_max_width_def">220dp</dimen>
+    <dimen name="settings_list_item_gap_right">30dip</dimen>
+    <dimen name="setting_item_title_max_width_with_subtitle">175dp</dimen>
+    <dimen name="setting_item_icon_width">24dp</dimen>
+    <dimen name="setting_item_text_badge_subtitle_margin">8.5dip</dimen>
+    <dimen name="settings_item_right_widget_margin">18dip</dimen>
+    <dimen name="settings_item_arrow_width">28.6dip</dimen>
+    <dimen name="national_flags_margin_left">12dip</dimen>
+    <!-- big font -->
+    <dimen name="common_max_size">20dip</dimen>
+    <dimen name="settings_list_item_icon_margin_right">12dip</dimen>
+
+    <!-- sidebar related -->
+    <dimen name="drag_touch_point_offset">30dp</dimen>
+    <dimen name="drag_image_arrow_point_offset">37dp</dimen>
+    <dimen name="drag_card_arrow_point_offset">24dp</dimen>
+    <dimen name="drag_normal_arrow_point_offset">26dp</dimen>
+    <dimen name="drag_text_size">13.5sp</dimen>
+    <dimen name="drag_background_padding">27dp</dimen>
+    <dimen name="drag_layout_minwidth">114dp</dimen>
+    <dimen name="drag_layout_maxwidth">150dp</dimen>
+    <dimen name="drag_link_icon_padding">6dp</dimen>
+    <dimen name="drag_image_size">50dp</dimen>
+    <dimen name="drag_card_padding_avatar">7.3dp</dimen>
+    <dimen name="drag_file_icon_shadow_cover">19dp</dimen>
+
+    <!-- FontFitTextView -->
+    <dimen name="font_fit_min_size">12dp</dimen>
+
+    <!-- menu dialog -->
+    <dimen name="menu_dialog_item_text_size">18sp</dimen>
+    <dimen name="menu_dialog_item_text_min_size">18dp</dimen>
+    <dimen name="arrow_translation_x">2dp</dimen>
+
+    <dimen name="recent_call_padding_left">60dp</dimen>
+    <dimen name="recent_call_padding">32dp</dimen>
+
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+<!--==============================================
+    attr type block, id starts from 0x010000
+    for example,
+    <public type="attr" name="attr_name" id="0x010000" />
+    ============================================-->
+    <eat-comment />
+
+    <public type="attr" name="itemSwitchIcon" id="0x010000" />
+    <public type="attr" name="itemSwitchTitle" id="0x010001" />
+    <public type="attr" name="itemSwitchSummary" id="0x010002" />
+    <public type="attr" name="itemSwitchIsEnable" id="0x010003" />
+    <public type="attr" name="itemSwitchTitleSize" id="0x010004" />
+    <public type="attr" name="itemSwitchSummarySize" id="0x010005" />
+    <!-- title bar -->
+    <public type="attr" name="title" id="0x010006" />
+    <public type="attr" name="backText" id="0x010007" />
+    <public type="attr" name="okText" id="0x010008" />
+    <public type="attr" name="titleSize" id="0x010009" />
+    <public type="attr" name="titleColor" id="0x01000a" />
+    <public type="attr" name="backTextSize" id="0x01000b" />
+    <public type="attr" name="backTextColor" id="0x01000c" />
+    <public type="attr" name="okTextSize" id="0x01000d" />
+    <public type="attr" name="okTextColor" id="0x01000e" />
+
+    <public type="attr" name="itemCheckIcon" id="0x01000f" />
+    <public type="attr" name="itemCheckTitle" id="0x010010" />
+    <public type="attr" name="itemCheckSummary" id="0x010011" />
+    <public type="attr" name="itemCheckTitleSize" id="0x010012" />
+    <public type="attr" name="itemCheckSummarySize" id="0x010013" />
+    <public type="attr" name="itemCheckGravity" id="0x010014" />
+
+    <public type="attr" name="itemTextGravity" id="0x010015" />
+    <public type="attr" name="itemTextTitle" id="0x010016" />
+    <public type="attr" name="itemTextIcon" id="0x010017" />
+    <public type="attr" name="itemTextSummary" id="0x010018" />
+    <public type="attr" name="itemTextShowArrow" id="0x010019" />
+    <public type="attr" name="itemTextSubTitle" id="0x01001a" />
+    <public type="attr" name="itemTextSubTitleFontSize" id="0x01001b" />
+    <public type="attr" name="itemTextArrow" id="0x01001c" />
+    <public type="attr" name="itemTextTitleMaxWidth" id="0x01001d" />
+    <public type="attr" name="itemTextClickable" id="0x01001e" />
+    <public type="attr" name="subTitleFontSize" id="0x01001f" />
+    <public type="attr" name="subTitle" id="0x010020" />
+    <public type="attr" name="clickable" id="0x010021" />
+    <public type="attr" name="show_arrow" id="0x010022" />
+    <public type="attr" name="isChecked" id="0x010023" />
+    <public type="attr" name="summary" id="0x010024" />
+    <public type="attr" name="arrow" id="0x010025" />
+    <public type="attr" name="titleMaxWidth" id="0x010026" />
+    <public type="attr" name="itemIcon" id="0x010027" />
+    <public type="attr" name="itemTitle" id="0x010028" />
+    <public type="attr" name="itemSummary" id="0x010029" />
+    <public type="attr" name="itemTitleSize" id="0x01002a" />
+    <public type="attr" name="itemSummarySize" id="0x01002b" />
+    <public type="attr" name="icon" id="0x01002c" />
+
+    <!--  added for the setting part of each app -->
+    <eat-comment />
+    <public type="drawable" name="item_back_ground_bottom" id="0x020000" />
+    <public type="drawable" name="item_back_ground_bottom_disable" id="0x020001" />
+    <public type="drawable" name="item_back_ground_bottom_highlight" id="0x020002" />
+    <public type="drawable" name="item_back_ground_middle" id="0x020003" />
+    <public type="drawable" name="item_back_ground_middle_disable" id="0x020004" />
+    <public type="drawable" name="item_back_ground_middle_highlight" id="0x020005" />
+    <public type="drawable" name="item_back_ground_single" id="0x020006" />
+    <public type="drawable" name="item_back_ground_single_disable" id="0x020007" />
+    <public type="drawable" name="item_back_ground_single_highlight" id="0x020008" />
+    <public type="drawable" name="item_back_ground_top" id="0x020009" />
+    <public type="drawable" name="item_back_ground_top_disable" id="0x02000a" />
+    <public type="drawable" name="item_back_ground_top_highlight" id="0x02000b" />
+    <public type="drawable" name="sub_item_back_ground_bottom" id="0x02000c" />
+    <public type="drawable" name="sub_item_back_ground_bottom_disabled" id="0x02000d" />
+    <public type="drawable" name="sub_item_back_ground_bottom_highlight" id="0x02000e" />
+    <public type="drawable" name="sub_item_back_ground_middle" id="0x02000f" />
+    <public type="drawable" name="sub_item_back_ground_middle_disabled" id="0x020010" />
+    <public type="drawable" name="sub_item_back_ground_middle_highlight" id="0x020011" />
+    <public type="drawable" name="sub_item_back_ground_single" id="0x020012" />
+    <public type="drawable" name="sub_item_back_ground_single_disabled" id="0x020013" />
+    <public type="drawable" name="sub_item_back_ground_single_highlight" id="0x020014" />
+    <public type="drawable" name="sub_item_back_ground_top" id="0x020015" />
+    <public type="drawable" name="sub_item_back_ground_top_disabled" id="0x020016" />
+    <public type="drawable" name="sub_item_back_ground_top_highlight" id="0x020017" />
+    <public type="drawable" name="blue_long_button" id="0x020018" />
+    <public type="drawable" name="blue_long_button_down" id="0x020019" />
+    <public type="drawable" name="common_bg" id="0x02001a" />
+    <public type="drawable" name="title_bar_bg" id="0x020076" />
+    <public type="drawable" name="title_btn" id="0x020077" />
+    <public type="drawable" name="title_btn_disabled" id="0x020078" />
+    <public type="drawable" name="title_btn_pressed" id="0x020079" />
+    <public type="drawable" name="title_red_btn" id="0x02007a" />
+    <public type="drawable" name="title_red_btn_disabled" id="0x02007b" />
+    <public type="drawable" name="title_red_btn_pressed" id="0x02007c" />
+    <public type="drawable" name="title_bar_shadow" id="0x02007d" />
+    <public type="drawable" name="search_bar_shadow" id="0x02007e" />
+    <public type="drawable" name="delete_btn" id="0x02007f"/>
+    <public type="drawable" name="title_btn_back" id="0x020080"/>
+    <public type="drawable" name="title_btn_back_highlight" id="0x020081"/>
+    <public type="drawable" name="title_btn_ok" id="0x020082"/>
+    <public type="drawable" name="title_btn_ok_disabled" id="0x020083"/>
+    <public type="drawable" name="title_btn_ok_highlight" id="0x020084"/>
+    <public type="drawable" name="selector_title_button_back" id="0x020085"/>
+    <public type="drawable" name="selector_title_button_ok" id="0x020086"/>
+
+    <public type="anim" name="pop_up_in" id="0x030000" />
+    <public type="anim" name="slide_down_out" id="0x030001" />
+    <public type="anim" name="slide_in_from_left" id="0x030002" />
+    <public type="anim" name="slide_in_from_right" id="0x030003" />
+    <public type="anim" name="slide_out_to_left" id="0x030004" />
+    <public type="anim" name="slide_out_to_right" id="0x030005" />
+    <public type="anim" name="fake_anim" id="0x030006" />
+    <public type="anim" name="fade_out" id="0x030007" />
+
+    <public type="color" name="sm_password_tip" id="0x040000" />
+    <public type="color" name="title_bar_button_text_colorlist" />
+    <public type="color" name="title_bar_highlight_button_text_colorlist" />
+
+
+    <!-- window background -->
+    <public name="win_background" type="drawable" id="0x02006b" />
+
+    <public type="drawable" name="selected" id="0x020075"/>
+
+</resources>

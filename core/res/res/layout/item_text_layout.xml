@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical" >
+
+    <RelativeLayout
+        android:id="@+id/item_text_title_summary_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:duplicateParentState="true" >
+
+        <TextView
+            android:id="@+id/item_text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:duplicateParentState="true"
+            android:maxWidth="220dp"
+            android:singleLine="true"
+            android:textColor="@color/item_text_text_colorlist"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/item_text_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_text_title"
+            android:duplicateParentState="true"
+            android:singleLine="true"
+            android:textColor="@color/item_text_summary_text_colorlist"
+            android:textSize="13.5sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/item_text_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dp"
+        android:src="@drawable/selector_item_text_arrow" />
+
+    <TextView
+        android:id="@+id/item_text_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="3dp"
+        android:layout_toLeftOf="@id/item_text_arrow"
+        android:layout_toRightOf="@id/item_text_title_summary_layout"
+        android:duplicateParentState="true"
+        android:ellipsize="end"
+        android:gravity="right"
+        android:shadowColor="#33000000"
+        android:shadowDy="-1"
+        android:shadowRadius="0"
+        android:singleLine="true"
+        android:textColor="@color/item_text_summary_text_colorlist"
+        android:textSize="13.5sp" />
+
+</merge>

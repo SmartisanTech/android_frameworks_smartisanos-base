@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <ImageView
+        android:id="@+id/item_switch_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/item_icon_right_margin"
+        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" >
+        <TextView
+            android:id="@+id/item_switch_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="@dimen/switch_title_max_width"
+            android:singleLine="true"
+            android:textSize="@dimen/switch_title_size"
+            android:textColor="@color/item_switch_text_colorlist"
+            />
+        <TextView
+            android:id="@+id/item_switch_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="@dimen/switch_title_max_width"
+            android:singleLine="true"
+            android:textSize="@dimen/item_sub_title_size"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="right">
+        <smartisanos.widget.SwitchEx
+            android:id="@+id/item_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</merge>

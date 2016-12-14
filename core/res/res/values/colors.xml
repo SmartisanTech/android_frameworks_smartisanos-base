@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+   <color name="dark">#CC000000</color>
+   <color name="text_disable">#4D000000</color>
+   <color name="setting_item_text_color_disabled">#BABABA</color>
+
+    <color name="title_text_color">#9a000000</color>
+    <color name="title_bar_highlight_button_text">#ffffff</color>
+    <color name="title_bar_button_text">#9a000000</color>
+    <color name="white">#FFF</color>
+    <color name="icon_shadow">#33000000</color>
+
+    <color name="sm_password_tip">#9e000000</color>
+    <color name="item_check_summary_text_color">#80000000</color>
+    <color name="item_check_text_color_highlight">#ffffff</color>
+
+    <color name="item_text_text_color">#cc000000</color>
+
+    <color name="setting_item_text_color_highlight">#ffffff</color>
+    <color name="setting_item_text_color">#cc000000</color>
+
+    <color name="setting_item_summary_text_color">#80000000</color>
+
+    <color name="drag_text_color">#ffffff</color>
+    <color name="drag_text_shadow_color">#33000000</color>
+
+</resources>

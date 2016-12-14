@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* Copyright 2012, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+    <!-- We don't want to publish private symbols in smartisanos.R as part of the
+       SDK.  Instead, put them here. -->
+    <private-symbols package="com.smartisanos.internal" />
+
+    <!-- layout symbol -->
+    <java-symbol type="layout" name="item_switch_layout" />
+    <java-symbol type="layout" name="menu_dialog" />
+    <java-symbol type="layout" name="menu_dialog_list_item" />
+    <java-symbol type="layout" name="menu_dialog_list_multi_item" />
+    <java-symbol type="layout" name="title_layout" />
+    <java-symbol type="layout" name="item_check_layout" />
+    <java-symbol type="layout" name="item_text_layout" />
+    <java-symbol type="layout" name="setting_item_text_layout" />
+    <java-symbol type="layout" name="setting_item_switch_layout" />
+    <java-symbol type="layout" name="setting_item_check_layout" />
+
+    <!-- dimen symbol -->
+    <java-symbol type="dimen" name="tips_max_width" />
+    <java-symbol type="dimen" name="title_back_btn_max_width" />
+    <java-symbol type="dimen" name="title_place_holder_min_width"/>
+    <java-symbol type="dimen" name="title_bar_btn_text_size"/>
+    <java-symbol type="dimen" name="title_bar_title_text_size"/>
+    <java-symbol type="dimen" name="menu_dialog_multi_list_height" />
+    <java-symbol type="dimen" name="item_check_icon_left_margin" />
+    <java-symbol type="dimen" name="item_text_right_arrow_margin" />
+    <java-symbol type="dimen" name="common_max_size" />
+    <java-symbol type="dimen" name="setting_item_icon_width" />
+    <java-symbol type="dimen" name="setting_item_text_badge_subtitle_margin" />
+    <java-symbol type="dimen" name="setting_item_text_subtitle_margin_left" />
+    <java-symbol type="dimen" name="setting_item_title_max_width_def" />
+    <java-symbol type="dimen" name="setting_item_title_max_width_with_subtitle" />
+    <java-symbol type="dimen" name="settings_item_icon_left_margin" />
+    <java-symbol type="dimen" name="settings_item_right_arrow_margin" />
+    <java-symbol type="dimen" name="settings_item_sub_title_size" />
+    <java-symbol type="dimen" name="settings_item_title_left_margin" />
+    <java-symbol type="dimen" name="settings_item_title_left_margin_with_grid" />
+    <java-symbol type="dimen" name="settings_item_grid_left_margin" />
+    <java-symbol type="dimen" name="settings_item_grid_scale" />
+    <java-symbol type="dimen" name="settings_item_title_right_margin" />
+    <java-symbol type="dimen" name="settings_item_title_size" />
+    <java-symbol type="dimen" name="settings_list_item_gap_right" />
+    <java-symbol type="dimen" name="settings_item_right_widget_margin" />
+    <java-symbol type="dimen" name="settings_list_item_icon_margin_right" />
+    <java-symbol type="dimen" name="arrow_translation_x" />
+    <java-symbol type="dimen" name="settings_item_arrow_width" />
+    <!-- id symbol -->
+    <java-symbol type="id" name="item_switch_icon" />
+    <java-symbol type="id" name="item_switch_title" />
+    <java-symbol type="id" name="item_switch_summary" />
+    <java-symbol type="id" name="item_switch" />
+    <java-symbol type="id" name="title" />
+
+    <!-- menu dialog ids -->
+    <java-symbol type="id" name="btn_cancel_right" />
+    <java-symbol type="id" name="btn_cancel_left" />
+    <java-symbol type="id" name="btn_ok" />
+    <java-symbol type="id" name="content_list" />
+    <java-symbol type="id" name="menu_dialog_title_bar"/>
+    <!-- title bar ids -->
+    <java-symbol type="id" name="btn_back"/>
+    <java-symbol type="id" name="place_holder"/>
+    <java-symbol type="id" name="btn_ok"/>
+    <java-symbol type="id" name="tv_title"/>
+
+    <java-symbol type="id" name="item_check_text_layout" />
+    <java-symbol type="id" name="item_check_title" />
+    <java-symbol type="id" name="item_check_summary" />
+    <java-symbol type="id" name="item_check_left_icon" />
+    <java-symbol type="id" name="item_check_icon" />
+
+    <java-symbol type="id" name="item_text_title_summary_layout" />
+    <java-symbol type="id" name="item_text_title" />
+    <java-symbol type="id" name="item_text_summary" />
+    <java-symbol type="id" name="item_text_arrow" />
+    <java-symbol type="id" name="item_text_subtitle" />
+
+    <!--setting item view ids-->
+    <java-symbol type="id" name="title_summary_layout" />
+    <java-symbol type="id" name="secondary_layout" />
+    <java-symbol type="id" name="item_icon" />
+    <java-symbol type="id" name="item_title" />
+    <java-symbol type="id" name="item_subtitle" />
+    <java-symbol type="id" name="item_summary" />
+    <java-symbol type="id" name="item_info_btn" />
+    <java-symbol type="id" name="item_arrow" />
+    <java-symbol type="id" name="title_layout" />
+    <java-symbol type="id" name="item_subtitle_text" />
+    <java-symbol type="id" name="text_layout" />
+    <java-symbol type="id" name="item_check" />
+    <java-symbol type="id" name="icon" />
+
+    <!-- string -->
+    <java-symbol type="string" name="title_button_text_back"/>
+
+    <!-- drawable symbol -->
+    <java-symbol type="drawable" name="switch_ex_bottom" />
+    <java-symbol type="drawable" name="switch_ex_unpressed" />
+    <java-symbol type="drawable" name="switch_ex_frame" />
+    <java-symbol type="drawable" name="switch_ex_mask" />
+    <java-symbol type="drawable" name="menu_dialog_button_red" />
+    <java-symbol type="drawable" name="menu_dialog_button_gray" />
+    <java-symbol type="drawable" name="menu_dialog_background" />
+    <java-symbol type="drawable" name="menu_dialog_multi_list_bg" />
+    <java-symbol type="drawable" name="menu_dialog_multi_item_selector" />
+    <java-symbol type="drawable" name="menu_dialog_last_item_selector" />
+    <java-symbol type="drawable" name="recent_call_item_selector" />
+    <java-symbol type="drawable" name="recent_call_multi_item_selector" />
+
+    <java-symbol type="drawable" name="selector_item_check_icon" />
+    <java-symbol type="drawable" name="selector_item_check_icon_light" />
+    <java-symbol type="drawable" name="selector_item_check_bg_top" />
+    <java-symbol type="drawable" name="selector_item_check_bg_middle" />
+    <java-symbol type="drawable" name="selector_item_check_bg_bottom" />
+    <java-symbol type="drawable" name="selector_item_check_bg_single" />
+    <java-symbol type="drawable" name="selector_check_icon" />
+    <java-symbol type="drawable" name="selector_check_icon_light" />
+
+    <!-- color symbol -->
+    <java-symbol type="color" name="white"/>
+    <java-symbol type="color" name="setting_item_summary_text_color"/>
+    <java-symbol type="color" name="setting_item_text_color"/>
+    <java-symbol type="color" name="title_text_color"/>
+    <java-symbol type="color" name="title_bar_highlight_button_text"/>
+    <java-symbol type="color" name="title_bar_button_text"/>
+
+    <!-- menu dialog symbol -->
+    <java-symbol type="style" name="MenuDialogTheme"/>
+
+    <!--sidebar related -->
+    <java-symbol type="dimen" name="drag_touch_point_offset"/>
+    <java-symbol type="dimen" name="drag_image_arrow_point_offset"/>
+    <java-symbol type="dimen" name="drag_card_arrow_point_offset"/>
+    <java-symbol type="dimen" name="drag_normal_arrow_point_offset"/>
+    <java-symbol type="dimen" name="drag_text_size"/>
+    <java-symbol type="dimen" name="drag_background_padding"/>
+    <java-symbol type="dimen" name="drag_layout_minwidth"/>
+    <java-symbol type="dimen" name="drag_layout_maxwidth"/>
+    <java-symbol type="drawable" name="drag_background"/>
+    <java-symbol type="drawable" name="link_icon"/>
+    <java-symbol type="color" name="drag_text_color"/>
+    <java-symbol type="color" name="drag_text_shadow_color"/>
+    <java-symbol type="dimen" name="drag_link_icon_padding"/>
+    <java-symbol type="drawable" name="drag_image_background"/>
+    <java-symbol type="drawable" name="drag_image_background_2"/>
+    <java-symbol type="drawable" name="drag_image_background_3"/>
+    <java-symbol type="dimen" name="drag_image_size"/>
+    <java-symbol type="drawable" name="drag_card_bg"/>
+    <java-symbol type="drawable" name="drag_card_content"/>
+    <java-symbol type="dimen" name="drag_card_padding_avatar"/>
+    <java-symbol type="dimen" name="drag_file_icon_shadow_cover"/>
+
+    <java-symbol type="dimen" name="font_fit_min_size"/>
+
+    <!-- menu dialog -->
+    <java-symbol type="dimen" name="menu_dialog_item_text_size"/>
+    <java-symbol type="dimen" name="menu_dialog_item_text_min_size"/>
+
+    <java-symbol type="dimen" name="recent_call_padding_left" />
+    <java-symbol type="dimen" name="recent_call_padding" />
+
+    <!-- for drag file -->
+    <java-symbol type="drawable" name="file_icon_7z"/>
+    <java-symbol type="drawable" name="file_icon_apk"/>
+    <java-symbol type="drawable" name="file_icon_default"/>
+    <java-symbol type="drawable" name="file_icon_doc"/>
+    <java-symbol type="drawable" name="file_icon_docm"/>
+    <java-symbol type="drawable" name="file_icon_docx"/>
+    <java-symbol type="drawable" name="file_icon_dot"/>
+    <java-symbol type="drawable" name="file_icon_dotm"/>
+    <java-symbol type="drawable" name="file_icon_dotx"/>
+    <java-symbol type="drawable" name="file_icon_eml"/>
+    <java-symbol type="drawable" name="file_icon_fodp"/>
+    <java-symbol type="drawable" name="file_icon_fods"/>
+    <java-symbol type="drawable" name="file_icon_fodt"/>
+    <java-symbol type="drawable" name="file_icon_key"/>
+    <java-symbol type="drawable" name="file_icon_numbers"/>
+    <java-symbol type="drawable" name="file_icon_odp"/>
+    <java-symbol type="drawable" name="file_icon_ods"/>
+    <java-symbol type="drawable" name="file_icon_odt"/>
+    <java-symbol type="drawable" name="file_icon_pages"/>
+    <java-symbol type="drawable" name="file_icon_pdf"/>
+    <java-symbol type="drawable" name="file_icon_pot"/>
+    <java-symbol type="drawable" name="file_icon_potx"/>
+    <java-symbol type="drawable" name="file_icon_ppt"/>
+    <java-symbol type="drawable" name="file_icon_pptm"/>
+    <java-symbol type="drawable" name="file_icon_pptx"/>
+    <java-symbol type="drawable" name="file_icon_rar"/>
+    <java-symbol type="drawable" name="file_icon_txt"/>
+    <java-symbol type="drawable" name="file_icon_type_audio"/>
+    <java-symbol type="drawable" name="file_icon_type_image"/>
+    <java-symbol type="drawable" name="file_icon_type_video"/>
+    <java-symbol type="drawable" name="file_icon_xls"/>
+    <java-symbol type="drawable" name="file_icon_xlsx"/>
+    <java-symbol type="drawable" name="file_icon_xlt"/>
+    <java-symbol type="drawable" name="file_icon_xltx"/>
+    <java-symbol type="drawable" name="file_icon_zip"/>
+    <java-symbol type="drawable" name="file_icon_shadow"/>
+
+    <!--SmartisanProgressDialog -->
+    <java-symbol type="layout" name="smartisan_progress_dialog" />
+    <java-symbol type="drawable" name="smartisan_progress_dialog_bg" />
+    <java-symbol type="drawable" name="smartisan_progress_dialog_bg_black" />
+    <java-symbol type="drawable" name="smartisan_progress_dialog_bg_dark" />
+    <java-symbol type="drawable" name="progress_medium_smartisanos_light" />
+    <java-symbol type="drawable" name="progress_medium_smartisanos_dark" />
+    <java-symbol type="id" name="progress_dialog_title" />
+    <java-symbol type="id" name="progress_dialog_content" />
+</resources>
