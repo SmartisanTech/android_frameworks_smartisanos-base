@@ -26,6 +26,9 @@ LOCAL_AAPT_FLAGS := -x 2
 
 LOCAL_MODULE_TAGS := optional
 
+LOCAL_AAPT_FLAGS := --auto-add-overlay
+LOCAL_RESOURCE_DIR := $(addprefix $(LOCAL_PATH)/, res)
+
 # Install this alongside the libraries.
 LOCAL_MODULE_PATH := $(TARGET_OUT_JAVA_LIBRARIES)
 
