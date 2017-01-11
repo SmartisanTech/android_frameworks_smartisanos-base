@@ -71,4 +71,10 @@
     <dimen name="recent_call_padding_left">60dp</dimen>
     <dimen name="recent_call_padding">32dp</dimen>
 
+    <!-- Search -->
+    <dimen name="search_popup_width">350dp</dimen>
+    <dimen name="search_popup_height">538dp</dimen>
+    <dimen name="search_webview_vertical_margin">45dp</dimen>
+    <dimen name="search_progess_icon_size">30dp</dimen>
+    <dimen name="search_button_max_textsize">15dp</dimen>
 </resources>

@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="title_button_text_back">返回</string>
+    <string name="goto_browser">用瀏覽器打開</string>
+    <string name="close">關閉</string>
 </resources>

@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="title_button_text_back">戻る</string>
+    <string name="goto_browser">ブラウザで開く</string>
+    <string name="close">閉じる</string>
 </resources>

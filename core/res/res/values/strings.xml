@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="title_button_text_back">Back</string>
+    <string name="goto_browser">Open in Browser</string>
+    <string name="close">Close</string>
 </resources>

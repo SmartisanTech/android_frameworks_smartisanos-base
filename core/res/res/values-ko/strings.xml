@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="title_button_text_back">이전</string>
+    <string name="goto_browser">브라우저에서 열기</string>
+    <string name="close">닫기</string>
 </resources>
